@@ -6,7 +6,7 @@ class Product
     public required string Name { get; set; }
     public required string Category { get; set; }
     public int PriceModel  { get; set; }
-    public string Status { get; set; }
-    public string Description { get; set; }
+    public required string Status { get; set; }
+    public required string Description { get; set; }
 }
 
